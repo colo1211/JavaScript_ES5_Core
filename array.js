@@ -3,9 +3,9 @@
 // Array 배열
 
 //1. 배열 선언
-const arr1 = new Array();
+const arr1 = Array();
 const arr2= [1,2];
-
+console.log('arr1:',arr1);
 // Index 위치를 이용하여 삽입/ 삭제/ 검색이 핵심
 
 //2. Index 위치
