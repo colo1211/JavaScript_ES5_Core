@@ -55,15 +55,13 @@ class UserStorage{
 const userStorage = new UserStorage();
 const id = prompt('아이디를 입력하세요');
 const password = prompt('비밀번호를 입력하세요');
-userStorage.loginUser(
-    id,
-    password,
-    user=>{
+userStorage.loginUser(id, password,
+    (user)=>{
         userStorage.getRoles(user,(userWithRole)=>{
             alert(`${userWithRole.name}, 님 ${userWithRole.role}의 권한이 있습니다.`);
         }, (error)=>{
             console.log(error);
         })
     } ,
-    error => console.log(error)
+    (error) => console.log(error)
 );
