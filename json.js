@@ -62,5 +62,6 @@ console.log(obj.birthDate); // 처음 토끼 객체에서는 new Date() 라는 �
 obj = JSON.parse(json,(key,value)=>{
     return key === 'birthDate' ? new Date(): value; // new Date() 대체하기 (문자열 -> 다시 new Date)
 })
+//
 console.log(obj);
 console.log(obj.birthDate.getDate()); // 8일이니까 8이 출력
