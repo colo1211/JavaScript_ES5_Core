@@ -8,7 +8,6 @@ function print(name, age){
     console.log(name);
     console.log(age);
 }
-//
 // 객체일때
 const ellie = {name : 'ellie', age : 35};
 function printf(person){

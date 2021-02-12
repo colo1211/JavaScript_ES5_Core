@@ -120,7 +120,7 @@ const add_2 = (a,b) => a+b;
 
 console.log(add(1,1));
 console.log(add_2(1,2));
-//
+
 const calculate = (command, a,b)=> {
     switch (command) {
         case '+': add(a,b); break;

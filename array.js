@@ -1,4 +1,3 @@
-//
 'use strict';
 
 // Array 배열
