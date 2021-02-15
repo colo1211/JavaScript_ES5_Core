@@ -5,6 +5,7 @@
     <mapping directory="$PROJECT_DIR$/JavaScript_ES5_Core" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Js-WebGame" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/MS-SQL" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Node.JS_All" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/TIL" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/html-css-naver" vcs="Git" />
   </component>
